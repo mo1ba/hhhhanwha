@@ -423,7 +423,7 @@ main {
         content: ""; 
         width: 36px; 
         height: 23px; 
-        background: url('../img/main-next.png') 50% 50% no-repeat;
+        background: url('./../img/main-next.png') 50% 50% no-repeat;
         background-size: contain; 
         top: 50%; 
         margin-top: -11.5px; 
@@ -433,7 +433,7 @@ main {
 
     &:hover span:before {
       transition: .2s ease-in-out;
-      background-image: url('../img/main-next_w.png');
+      background-image: url('./../img/main-next_w.png');
       right: -70px;
     }
   }
@@ -541,7 +541,7 @@ main {
 
 /* 세번째 섹션 */
 .main-invest {
-  background-image: url('../img/main-invest.jpg');
+  background-image: url('./../img/main-invest.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -709,7 +709,7 @@ main {
             font-weight: 500;
 
             &:before {
-              background-image: url('../img/main-next_w2.png');
+              background-image: url('./../img/main-next_w2.png');
               opacity: 1; 
               right: -70px;
             }
@@ -747,7 +747,7 @@ main {
             content: "";
             width: 36px;
             height: 23px;
-            background: url('../img/main-next2.png') 50% 50% no-repeat;
+            background: url('./../img/main-next2.png') 50% 50% no-repeat;
             background-size: contain; 
             top: 50%;
             margin-top: -11.5px;
